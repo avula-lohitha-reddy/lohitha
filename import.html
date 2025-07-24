@@ -1,0 +1,23 @@
+import react,{use state}from 'react';
+import.\app.css';
+function counter(){
+    const[count.selectcount]=use state(0);
+    const increment()=>{
+    set count(count+1);
+    };
+    return(
+        <div classname="app">
+            <h2>counter using funtional component</h2>
+            <p>count:{count}</p>
+            <button on click={increment}>increment</button>
+        </div>
+    );
+}
+export default counter
+src/index.js
+import react from 'react';
+import react dom from 'react_dom\cilent';
+import:\import.csss';
+import counter from .\app';
+cost root=react done create root(document.get elementory id('root'));
+root render(<counter1>);
